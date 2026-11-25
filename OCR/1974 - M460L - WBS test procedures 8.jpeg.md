@@ -51,7 +51,7 @@ of
 
 ```json
 {
- "file": "Modules/INPUT-PRE-AMPS/M460L/PHOTOS/1974 - M460L - WBS test procedures 8.jpeg",
+ "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - WBS test procedures 8.jpeg",
  "sha256": "b56bce92b4278a1d5356f5ce0a1c8d030437ab50281e549901b78431b6f66936",
  "kind": "module",
  "models": [

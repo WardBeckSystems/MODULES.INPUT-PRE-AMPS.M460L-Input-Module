@@ -26,7 +26,7 @@ Input Module
 
 ```json
 {
- "file": "Modules/INPUT-PRE-AMPS/M460L/PHOTOS/1974 - M460L - WBS test procedures 0.jpeg",
+ "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - WBS test procedures 0.jpeg",
  "sha256": "3e75f533da5ccb94ceb95aa76cd2ff50fbea02465ca14d4fa5b250d86317760b",
  "kind": "module",
  "models": [
