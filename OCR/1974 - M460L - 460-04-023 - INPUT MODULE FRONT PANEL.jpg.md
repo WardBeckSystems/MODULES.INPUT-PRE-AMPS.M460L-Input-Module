@@ -21,7 +21,7 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Words (OCR):** 56 in 51 lines: WBS · M460L · Mic · PAD OFF · 100 · 50 150 · 19 · 25 2501 · HP SEN · PA · 22 · PRE
 - **Title block:** (88, 0)–(274, 431) mm: WBS · M460L · Mic · PAD OFF · 100 · 50 150 · 19 · 25 2501 · HP SEN · PA · 22 · PRE · RS-€-PA · RS · 23) · PRE · 24 · PRE · 25 · 3/4-€-V/2 · 26 · PRE · RHz · 28 · MF · KHI · 29 · 100 180 220 · 260 · 30
 
-Every curve, box, word and wire group: [1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL (traced).json](../MECHANICAL/1974%20-%20M460L%20-%20460-04-023%20-%20INPUT%20MODULE%20FRONT%20PANEL%20(traced).json) (the CAD file: `1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL (traced).dxf`).
+Every curve, box, word and wire group: [1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL (traced).json](../MECHANICAL/1974%20-%20M460L%20-%20460-04-023%20-%20INPUT%20MODULE%20FRONT%20PANEL%20%28traced%29.json) (the CAD file: `1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL (traced).dxf`).
 
 ## Full text
 

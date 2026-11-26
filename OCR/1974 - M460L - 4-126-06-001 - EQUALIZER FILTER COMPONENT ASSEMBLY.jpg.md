@@ -26,7 +26,7 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Words (OCR):** 95 in 72 lines: E5 · E3 6-8/6 · E2 · ~C9 · C7 C6 · R2o"| · Ri9cig c18 · 2S · C21R21 R1 LMi458 · R24 · Ri8 · C4
 - **Title block:** (289, 10)–(390, 52) mm: WBS WAAD-Beck syotems · DRN: · DM · DAT JULY 74 · 4-126 · EQUALIZER FILTER · CKD · [CALE · COMPONENT ASSEMBLY
 
-Every curve, box, word and wire group: [1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%204-126-06-001%20-%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20(traced).json) (the CAD file: `1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY (traced).dxf`).
+Every curve, box, word and wire group: [1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%204-126-06-001%20-%20EQUALIZER%20FILTER%20COMPONENT%20ASSEMBLY%20%28traced%29.json) (the CAD file: `1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY (traced).dxf`).
 
 ## Full text
 

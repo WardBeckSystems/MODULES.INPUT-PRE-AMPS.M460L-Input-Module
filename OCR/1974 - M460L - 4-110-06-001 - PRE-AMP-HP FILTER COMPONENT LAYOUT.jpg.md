@@ -21,7 +21,7 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Words (OCR):** 52 in 38 lines: 33/0 · 38 · 332K · 2L9 · 83 · 9k · 22/10 · 4k7 · aj; · 47ok · 33/12 · 40406
 - **Title block:** (282, 6)–(388, 53) mm: WBS WAAD-BeCK BysTeMB LTD: · DRN · 4-110 · DATE  IOJUN74 · PRE-AMP/HP FILTER · CKD. · FSCALE · COMPONENT LAYOUT · ToLs .
 
-Every curve, box, word and wire group: [1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%204-110-06-001%20-%20PRE-AMP-HP%20FILTER%20COMPONENT%20LAYOUT%20(traced).json) (the CAD file: `1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT (traced).dxf`).
+Every curve, box, word and wire group: [1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%204-110-06-001%20-%20PRE-AMP-HP%20FILTER%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT (traced).dxf`).
 
 ## Full text
 

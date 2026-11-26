@@ -15,6 +15,21 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Size:** 124,396 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** functional, size B (assumed) 432 × 280 mm, 900 × 583 px traced (0.480 mm/px)
+- **Ink extent:** 0–432 mm across, 0–280 mm up
+- **Outlines:** line 368 rings, 3,721 straight (13,381 mm) / 614 curved (1,538 mm); text 116 rings, 926 straight (1,584 mm) / 288 curved (729 mm); tb 16 rings, 107 straight (358 mm) / 11 curved (29.7 mm)
+- **Centre lines:** 4,783 paths (56 closed); straight 8,852 mm, curved 52.3 mm; horizontal 3,889 mm, vertical 2,048 mm, diagonal 2,915 mm
+- **Circles and arcs:** 1 circles, 5 arcs; largest r 3.4 @ (229.5, 186.8)
+- **Closed boxes:** 47 (2 in the title block); named: cko
+- **Dots (junctions):** 1
+- **Words (OCR):** 42 in 39 lines: DIRECT Output · OhMS · Imsert Jacks · LefT Output · Iddam · RIChT OUTPUT · mic In · Post · FOLDBACK · 7F8 · CohtRO · FOLDBACK
+- **Title block:** (272, 4)–(383, 53) mm: WBS WAAD BeCk · DRNMIUZE · DAME · MA6OL · CKDS / · FUNCTIONA · INPUT · ScALE · TOLS · 01-010
+- **Wiring (first pass):** 165 connected wire groups from 527 runs, 2 dotted junctions; labelled ends: 127 mm → COHTROL; 67 mm → USED ON, WBS; 59 mm → DIRECT Output; 55 mm → DRNMIUZE, DAME, CKDS /; 44 mm → ScALE
+
+Every curve, box, word and wire group: [M460L - Block Diagram(1) (traced).json](../SCHEMATICS/M460L%20-%20Block%20Diagram%281%29%20%28traced%29.json) (the CAD file: `M460L - Block Diagram(1) (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

@@ -20,7 +20,7 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Words (OCR):** 161 in 108 lines: P1 · P2 · MIc A 1 Mic · NC · NC · NC · Mic SHIELD · GND · GND · LEFT OUT · LEFT OUT · PA
 - **Title block:** (306, 0)–(432, 74) mm: ISSUE DATE · REVISION · WBS WARD-BECK sy · DRN:VInkE · ENG_ · M460L · INPUT MODULE · CKD 7u · CONNECTOR · REAR · VIEL_ · APP · SCALE · 460-04-022
 
-Every curve, box, word and wire group: [1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW (traced).json](../PINOUTS/1974%20-%20M460L%20-%20460-04-622%20-%20INPUT%20MODULE%20CONNECTOR%20REAR%20VIEW%20(traced).json) (the CAD file: `1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW (traced).dxf`).
+Every curve, box, word and wire group: [1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW (traced).json](../PINOUTS/1974%20-%20M460L%20-%20460-04-622%20-%20INPUT%20MODULE%20CONNECTOR%20REAR%20VIEW%20%28traced%29.json) (the CAD file: `1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW (traced).dxf`).
 
 ## Full text
 

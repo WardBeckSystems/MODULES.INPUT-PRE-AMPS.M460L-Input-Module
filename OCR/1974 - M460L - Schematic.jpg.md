@@ -11,6 +11,20 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Size:** 1,979,763 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic, size B (assumed) 432 × 141 mm, 2000 × 654 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–141 mm up
+- **Outlines:** line 1,879 rings, 16,668 straight (22,173 mm) / 3,422 curved (3,719 mm); text 14 rings, 80 straight (68.9 mm) / 27 curved (28.3 mm)
+- **Centre lines:** 17,674 paths (475 closed); straight 13,567 mm, curved 67.2 mm; horizontal 5,252 mm, vertical 3,944 mm, diagonal 4,372 mm
+- **Circles and arcs:** 2 circles, 19 arcs; largest r 1.4 @ (251.0, 13.7), r 0.8 @ (167.4, 100.6)
+- **Closed boxes:** 34
+- **Dots (junctions):** 4
+- **Words (OCR):** 2 in 2 lines: 37 · NOIE
+- **Wiring (first pass):** 230 connected wire groups from 1,288 runs; labelled ends: 88 mm → NOIE; 42 mm → 37; 20 mm → 37; 7 mm → 37
+
+Every curve, box, word and wire group: [1974 - M460L - Schematic (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%20Schematic%20%28traced%29.json) (the CAD file: `1974 - M460L - Schematic (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

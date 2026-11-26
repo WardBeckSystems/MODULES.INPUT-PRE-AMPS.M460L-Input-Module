@@ -11,6 +11,20 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Size:** 1,444,681 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** schematic, size B (assumed) 432 × 283 mm, 2000 × 1310 px traced (0.216 mm/px)
+- **Ink extent:** 0–432 mm across, 0–273 mm up
+- **Outlines:** line 686 rings, 8,568 straight (14,556 mm) / 1,453 curved (1,956 mm); text 778 rings, 6,505 straight (8,242 mm) / 1,873 curved (3,012 mm); tb 135 rings, 761 straight (838 mm) / 126 curved (134 mm)
+- **Centre lines:** 13,609 paths (119 closed); straight 14,883 mm, curved 349 mm; horizontal 5,097 mm, vertical 2,984 mm, diagonal 6,802 mm
+- **Circles and arcs:** 7 circles, 39 arcs; largest r 6.6 @ (194.6, 233.0), r 6.5 @ (151.6, 222.6), r 6.3 @ (84.2, 191.5), r 6.3 @ (195.3, 133.4)
+- **Closed boxes:** 24 (3 in the title block); named: MATL _; 440
+- **Words (OCR):** 127 in 112 lines: PRE · AMPLIFIER · HIGH · PASS FILTER · E4 · +21v · R4 · R5 · C6 · C12 · R2 · 22k
+- **Title block:** (271, 4)–(421, 52) mm: WBS WARD-BECK SySTEMS · DRN: · Do · 4-110 · DATE EMARZ · PRE-AMPIHP FILTER · CKD · SCHEMATIC · SCALE · Tols · 4-110-02-001
+- **Wiring (first pass):** 62 connected wire groups from 407 runs; labelled ends: 500 mm → R2, ISk, AMPLIFIER, R4; 421 mm → COMPONENT, MATL _, Z se1PKM, FINISH; 348 mm → C12, 22/10, 94, 2N4403; 294 mm → #C9, 063, Ixcio, 33pF; 219 mm → COMPONENT, E9, 0-21v
+
+Every curve, box, word and wire group: [1974 - M460L - 4-110 Pre-Amp_HP Filter Schematic (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%204-110%20Pre-Amp_HP%20Filter%20Schematic%20%28traced%29.json) (the CAD file: `1974 - M460L - 4-110 Pre-Amp_HP Filter Schematic (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 3 words corrected)

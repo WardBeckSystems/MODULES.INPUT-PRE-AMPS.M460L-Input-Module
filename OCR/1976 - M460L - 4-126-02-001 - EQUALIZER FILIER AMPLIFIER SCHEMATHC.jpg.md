@@ -28,7 +28,7 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Title block:** (352, 0)–(421, 32) mm: WBS WAAD-BECK BYBTEME · DRN 2EB · 4-126 · Oct 7 · EQUALIZER FIliER · cKD · ScALE · Lu · MPLIFIER SCHEMANC · Tols · 4-126-02-001
 - **Wiring (first pass):** 91 connected wire groups from 673 runs; labelled ends: 241 mm → USED, 3047; 195 mm → Ke2, cio, Ooop, 23; 158 mm → 22, -2iv; 156 mm → 620, 22; 145 mm → ok, 222, YALJE
 
-Every curve, box, word and wire group: [1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC (traced).json](../SCHEMATICS/1976%20-%20M460L%20-%204-126-02-001%20-%20EQUALIZER%20FILIER%20AMPLIFIER%20SCHEMATHC%20(traced).json) (the CAD file: `1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC (traced).dxf`).
+Every curve, box, word and wire group: [1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC (traced).json](../SCHEMATICS/1976%20-%20M460L%20-%204-126-02-001%20-%20EQUALIZER%20FILIER%20AMPLIFIER%20SCHEMATHC%20%28traced%29.json) (the CAD file: `1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC (traced).dxf`).
 
 ## Full text
 

@@ -11,6 +11,19 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Size:** 773,401 bytes
 - **Pages:** 1
 
+## Vectors (traced)
+
+- **Sheet:** component layout, size B (assumed) 432 × 272 mm, 2000 × 1260 px traced (0.216 mm/px)
+- **Ink extent:** 5–432 mm across, 0–263 mm up
+- **Outlines:** line 1,705 rings, 10,303 straight (12,126 mm) / 2,969 curved (3,008 mm); text 658 rings, 4,000 straight (3,243 mm) / 1,426 curved (1,517 mm); tb 15 rings, 121 straight (165 mm) / 32 curved (33.8 mm)
+- **Circles and arcs:** 9 circles, 0 arcs; largest r 1.8 @ (359.8, 189.9), r 1.5 @ (169.3, 172.0), r 1.5 @ (204.1, 112.1), r 1.5 @ (280.8, 108.3)
+- **Closed boxes:** 24; named: 547 Swzol
+- **Dots (junctions):** 1
+- **Words (OCR):** 92 in 78 lines: Pios · Shs Shia · Swi3 Sni? · S49 576 · 547 SWG Sw5 · Sh3 · Sw2 · Side · 4*7 · Dt · Rho · 388
+- **Title block:** (348, 14)–(411, 30) mm: WBS WaAD beck · M460L
+
+Every curve, box, word and wire group: [1974 - M460L - Componenet layout (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%20Componenet%20layout%20%28traced%29.json) (the CAD file: `1974 - M460L - Componenet layout (traced).dxf`).
+
 ## Full text
 
 ### Page 1 (OCR, spell-checked: 4 words corrected)

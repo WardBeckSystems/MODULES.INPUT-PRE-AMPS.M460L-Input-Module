@@ -24,7 +24,7 @@ Wiki page: [M460L](../../../../PAGES/M460L.md)
 - **Title block:** (139, 5)–(421, 57) mm: IsS MOD  CKD_ · USED ON · MATL · WBS WARD BeCK SYSTEMs LTD · DRNVINCE · M46OL · DATE · FIMISH · INPUT MODULE · Ly · FUNCTIONAL DIAGRAM · [SCALE · TOLS · 460 01 - 010 · ISS_
 - **Wiring (first pass):** 166 connected wire groups from 369 runs; labelled ends: 248 mm → 8-109, ON, FADER, (-I5d8); 127 mm → Right Output, CONTROL; 70 mm → PFL; 60 mm → DIRECT OUTPut, 10 dBm, INSERT; 50 mm → INSERT, 8*109A
 
-Every curve, box, word and wire group: [1974 - M460L - 460-01-010 - CONTROL SOLO SOLO CONTROL (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%20460-01-010%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20(traced).json) (the CAD file: `1974 - M460L - 460-01-010 - CONTROL SOLO SOLO CONTROL (traced).dxf`).
+Every curve, box, word and wire group: [1974 - M460L - 460-01-010 - CONTROL SOLO SOLO CONTROL (traced).json](../SCHEMATICS/1974%20-%20M460L%20-%20460-01-010%20-%20CONTROL%20SOLO%20SOLO%20CONTROL%20%28traced%29.json) (the CAD file: `1974 - M460L - 460-01-010 - CONTROL SOLO SOLO CONTROL (traced).dxf`).
 
 ## Full text
 
