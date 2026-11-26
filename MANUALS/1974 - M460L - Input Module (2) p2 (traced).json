@@ -1,0 +1,63 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module (2).pdf",
+ "page": 2,
+ "version": 1,
+ "trace": "_traces/a6e75d6a1d4c7d4d-p2.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1553, 2000],
+  "mm": [335.3, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "2", "pages": "25"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [0.0, 0.0, 334.9, 427.3],
+ "outlines": {
+  "line": {"rings": 191, "straight": {"n": 2155, "mm": 4592.9}, "curved": {"n": 431, "mm": 685.6}},
+  "text": {"rings": 88, "straight": {"n": 730, "mm": 900.1}, "curved": {"n": 192, "mm": 314.2}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 41,
+  "lines": [
+   {"mm": [30.7, 409.1, 49.7, 414.6], "text": "WAFl"},
+   {"mm": [71.7, 409.1, 82.9, 414.6], "text": "Cl<"},
+   {"mm": [96.9, 409.1, 125.9, 414.6], "text": "STEMS"},
+   {"mm": [129.8, 408.9, 146.2, 414.7], "text": "LTD."},
+   {"mm": [146.4, 364.7, 171.9, 369.7], "text": "TECHNIC"},
+   {"mm": [186.1, 364.7, 201.4, 369.7], "text": "DA TA"},
+   {"mm": [138.0, 351.3, 207.5, 356.3], "text": "M46 0L NPUT MODULE"},
+   {"mm": [46.9, 325.4, 117.0, 330.6], "text": "Amb;~n Tem pera lUre"},
+   {"mm": [166.0, 324.3, 171.4, 329.1], "text": "60"},
+   {"mm": [177.0, 324.3, 225.0, 329.6], "text": "degr_.. Ce iu"},
+   {"mm": [149.0, 310.7, 160.4, 315.7], "text": "1.6\""},
+   {"mm": [171.2, 310.5, 175.3, 315.3], "text": "id"},
+   {"mm": [193.4, 310.5, 231.7, 315.7], "text": "14 .15\" Igh"},
+   {"mm": [243.8, 310.5, 275.7, 315.7], "text": "6.5\" deep"},
+   {"mm": [149.0, 304.2, 171.0, 309.2], "text": "(41 mm"},
+   {"mm": [184.2, 304.2, 206.8, 309.5], "text": "360 mm"},
+   {"mm": [220.2, 304.2, 244.2, 309.2], "text": "165 mm)"},
+   {"mm": [46.9, 292.3, 66.5, 297.6], "text": "We ht"},
+   {"mm": [148.3, 291.2, 205.1, 296.3], "text": "440>:5 (1250 gm"},
+   {"mm": [278.7, 65.0, 299.7, 74.1], "text": "ps"},
+   {"mm": [267.1, 53.5, 288.9, 65.1], "text": "BS"},
+   {"mm": [244.8, 31.1, 263.4, 38.3], "text": "tp"},
+   {"mm": [237.5, 24.0, 258.4, 31.2], "text": "ht"}
+  ]
+ },
+ "dots": [{"c": [117.4, 328.1], "r": 0.7, "lines": 0}],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–335 mm across, 0–427 mm up",
+  "- **Outlines:** line 191 rings, 2,155 straight (4,593 mm) / 431 curved (686 mm); text 88 rings, 730 straight (900 mm) / 192 curved (314 mm)",
+  "- **Dots (junctions):** 1",
+  "- **Words (OCR):** 41 in 23 lines: WAFl · Cl< · STEMS · LTD. · TECHNIC · DA TA · M46 0L NPUT MODULE · Amb;~n Tem pera lUre · 60 · degr_.. Ce iu · 1.6\" · id"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module.pdf",
+ "page": 2,
+ "version": 1,
+ "trace": "_traces/dfb4cdacdfb8bb36-p2.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1553, 2000],
+  "mm": [335.3, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "2", "pages": "25"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [0.0, 0.0, 334.9, 427.3],
+ "outlines": {
+  "line": {"rings": 38, "straight": {"n": 947, "mm": 3027.4}, "curved": {"n": 103, "mm": 165.9}},
+  "text": {"rings": 210, "straight": {"n": 1720, "mm": 2087.8}, "curved": {"n": 462, "mm": 718.8}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 29,
+  "lines": [
+   {"mm": [27.6, 408.5, 144.7, 415.4], "text": "WARD-BECK BYSTems LTD;"},
+   {"mm": [143.6, 364.9, 200.1, 371.8], "text": "TECHNICAL DATA"},
+   {"mm": [135.4, 351.5, 178.5, 358.4], "text": "M46oL inPuT"},
+   {"mm": [181.8, 350.8, 208.3, 358.5], "text": "MODULE"},
+   {"mm": [44.7, 323.4, 119.2, 331.8], "text": "Ambient Temperature:"},
+   {"mm": [163.4, 324.9, 172.1, 331.4], "text": "60"},
+   {"mm": [174.4, 323.6, 228.6, 331.8], "text": "degrees Celsius"},
+   {"mm": [153.9, 324.7, 160.8, 330.0], "text": "to"},
+   {"mm": [44.7, 311.3, 84.6, 317.8], "text": "Dimensions:"},
+   {"mm": [146.8, 311.3, 212.4, 317.8], "text": "1.6\" wide 14.15\""},
+   {"mm": [214.8, 310.9, 231.0, 317.9], "text": "high"},
+   {"mm": [241.6, 310.9, 275.1, 318.1], "text": "6.5\" deep"},
+   {"mm": [146.2, 304.4, 170.8, 312.1], "text": "(41 mm"},
+   {"mm": [181.8, 304.9, 206.2, 311.3], "text": "360 mm"},
+   {"mm": [217.4, 304.9, 229.3, 311.3], "text": "165"},
+   {"mm": [231.4, 304.4, 245.9, 311.4], "text": "mm)"},
+   {"mm": [44.7, 291.0, 70.6, 298.0], "text": "Weight:"},
+   {"mm": [146.4, 291.7, 171.2, 297.8], "text": "44 ozs ."},
+   {"mm": [174.9, 290.4, 209.4, 298.4], "text": "(1250 gms"},
+   {"mm": [166.7, 11.2, 178.5, 18.2], "text": "1-2"}
+  ]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 335 × 432 mm, 1553 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–335 mm across, 0–427 mm up",
+  "- **Outlines:** line 38 rings, 947 straight (3,027 mm) / 103 curved (166 mm); text 210 rings, 1,720 straight (2,088 mm) / 462 curved (719 mm)",
+  "- **Words (OCR):** 29 in 20 lines: WARD-BECK BYSTems LTD; · TECHNICAL DATA · M46oL inPuT · MODULE · Ambient Temperature: · 60 · degrees Celsius · to · Dimensions: · 1.6\" wide 14.15\" · high · 6.5\" deep"
+ ]
+}
