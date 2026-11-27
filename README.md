@@ -81,40 +81,106 @@ Not on Google Drive yet: `M460L - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
-22 contacts, 22 contacts (P1), 22 contacts (P2). Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 1 pinout picture (each its own `.pinout.json` beside it); the RTO-144 sheet agrees on 38 of 38 contacts. Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+**To check:**
+
+- insert guessed: Whether PRE OUT/BOOSTER IN are normalled on the module is not shown PRE OUT (Z/22) to BOOSTER IN (W/19) is read as the preamp-to-booster patch point (insert). (M460L: 1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.jpg)
+
+**Inserts:** PRE / BOOSTER INSERT: PRE OUT → BOOSTER IN
+
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 1 | MIC IN | in | A1 + | high |
-| 2 |  | unread |  | low |
-| 3 |  | unread |  | low |
-| 5 | BUS RIGHT OUT | out | A3 + | high |
-| 12 | DIRECT OUT | out | A4 + | high |
-| 17 | LINE IN | in | A2 + | high |
-| 17 |  | unread |  | low |
-| 18 | COMMON | ground |  | high |
-| 19 | FADER RETURN | in | B4 + | high |
-| 19 | -25 V | power |  | high |
-| 20 | CH ON SWITCH OUT | control | B3 + | high |
-| 20 | COMMON | ground |  | high |
-| 21 | INSERT RETURN | in | B2 + | high |
-| 21 | +25 V | power |  | high |
-| 22 | OUTPUT ACTIVELY BALANCED AND FED THE INSERT | out |  | medium |
-| 22 | INSERT OUT | out | B1 + | high |
-| 22 | CHASSIS | ground |  | high |
-| A | MIC IN | in | A1 - | high |
-| C |  | unread |  | low |
-| E | BUS RIGHT OUT | out | A3 - | high |
-| N | DIRECT OUT | out | A4 - | high |
-| U | LINE IN | in | A2 - | high |
-| V |  | unread |  | low |
-| W | FADER RETURN | in | B4 - | high |
-| X | CH ON SWITCH OUT | control | B3 - | high |
-| Y | INSERT RETURN | in | B2 - | high |
-| Y | +24 V | power |  | high |
-| Z | INSERT OUT | out | B1 - | high |
+| P1-1 | MIC IN | in | MIC IN | high |
+| P1-2 | MIC SHIELD | shield | MIC IN shield | high |
+| P1-3 | PA BUS | bus | PA | high |
+| P1-4 | RS2 BUS | bus | RS2 | high |
+| P1-5 | RS1 BUS | bus | RS1 | high |
+| P1-6 | FB4 BUS | bus | FB4 | high |
+| P1-7 | FB3 BUS | bus | FB3 | high |
+| P1-8 | FB2 BUS | bus | FB2 | high |
+| P1-9 | FB1 BUS | bus | FB1 | high |
+| P1-10 | PFL BUS | bus | PFL | high |
+| P1-11 | N/C | nc |  | high |
+| P1-12 | SOLO BUS | bus | SOLO | high |
+| P1-13 | N/C | nc |  | high |
+| P1-14 | N/C | nc |  | high |
+| P1-15 | N/C | nc |  | high |
+| P1-16 | ATT IN SHIELD TIE | shield | ATT IN shield | high |
+| P1-17 | LINE IN | in | LINE IN | high |
+| P1-18 | ATT OUT SHIELD TIE | shield | ATT OUT shield | high |
+| P1-19 | BOOSTER IN | insert_return | BOOSTER IN | high |
+| P1-20 | CH ON OUT | control_out | CH ON OUT | high |
+| P1-21 | CH ON IN | control_in | CH ON IN | high |
+| P1-22 | PRE OUT | insert_send | PRE OUT | high |
+| P1-A | MIC IN | in | MIC IN | high |
+| P1-B | N/C | nc |  | high |
+| P1-C | PA BUS | bus | PA | high |
+| P1-D | RS2 BUS | bus | RS2 | high |
+| P1-E | RS1 BUS | bus | RS1 | high |
+| P1-F | FB4 BUS | bus | FB4 | high |
+| P1-H | FB3 BUS | bus | FB3 | high |
+| P1-J | FB2 BUS | bus | FB2 | high |
+| P1-K | FB1 BUS | bus | FB1 | high |
+| P1-L | PFL BUS | bus | PFL | high |
+| P1-M | N/C | nc |  | high |
+| P1-N | SOLO BUS | bus | SOLO | high |
+| P1-P | N/C | nc |  | high |
+| P1-R | N/C | nc |  | high |
+| P1-S | N/C | nc |  | high |
+| P1-T | ATT IN SHIELD TIE | shield | ATT IN shield | high |
+| P1-U | LINE IN | in | LINE IN | high |
+| P1-V | ATT OUT SHIELD TIE | shield | ATT OUT shield | high |
+| P1-W | BOOSTER IN | insert_return | BOOSTER IN | high |
+| P1-X | CH ON OUT | control_out | CH ON OUT | high |
+| P1-Y | CH ON IN | control_in | CH ON IN | high |
+| P1-Z | PRE OUT | insert_send | PRE OUT | high |
+| P2-1 | N/C | nc |  | high |
+| P2-2 | GND | ground |  | high |
+| P2-3 | LEFT OUT | out | PROGRAM OUT L | high |
+| P2-4 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-5 | RIGHT OUT | out | PROGRAM OUT R | high |
+| P2-6 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-7 | GND | ground |  | high |
+| P2-8 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-9 | N/C | nc |  | high |
+| P2-10 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-11 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-12 | DIRECT OUT | out | DIRECT OUT | high |
+| P2-13 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-14 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-15 | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-16 | PFL CONTROL | control_in | PFL CONTROL | high |
+| P2-17 | MUTE CONTROL | control_in | MUTE CONTROL | high |
+| P2-18 | CONTROL COMMON | ground |  | high |
+| P2-19 | -25 V | power |  | high |
+| P2-20 | 25 V COMMON | ground |  | high |
+| P2-21 | +25 V | power |  | high |
+| P2-22 | CHASSIS | ground |  | high |
+| P2-A | N/C | nc |  | high |
+| P2-B | GND | ground |  | high |
+| P2-C | LEFT OUT | out | PROGRAM OUT L | high |
+| P2-D | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-E | RIGHT OUT | out | PROGRAM OUT R | high |
+| P2-F | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-H | GND | ground |  | high |
+| P2-J | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-K | N/C | nc |  | high |
+| P2-L | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-M | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-N | DIRECT OUT | out | DIRECT OUT | high |
+| P2-P | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-R | IC (INTERNALLY CONNECTED) | other |  | high |
+| P2-S | N/C | nc |  | high |
+| P2-T | RS CONTROL | control_in | RS CONTROL | high |
+| P2-U | MUTE CONTROL | control_in | MUTE CONTROL | high |
+| P2-V | SOLO CONTROL | control_in | SOLO CONTROL | high |
+| P2-W | CH ON | control_out | CH ON | high |
+| P2-X | CONTROL COMMON | ground |  | high |
+| P2-Y | +24 V | power |  | high |
+| P2-Z | CH ON LAMP | control_out | CH ON LAMP | high |
 
-**Straps:** CH ON LAMP: JMP.Z.W · CH ON GND : JMP.X.18 · 24V Jumper: JMP.Y.21 · CH ON GND : JMP.3 · Insert +: JMP.22.21 · Insert -: JMP.Z.Y · Fader +: JMP.20.19 · Fader - : JMP.X.W
+**Straps:** JMP.Z.W: P2-Z P2-W · JMP.X.18: P2-X P2-18 · JMP.Y.21: P2-Y P2-21 · JMP.3: P2-20 P2-18 · JMP.22.21: P1-22 P1-21 · JMP.Z.Y: P1-Z P1-Y · JMP.20.19: P1-20 P1-19 · JMP.X.W: P1-X P1-W
 
 ## Manuals and documents
 

@@ -3,403 +3,1885 @@
  "connector": "RTO-144",
  "type": "PREAMP",
  "series": "S460",
- "contacts": "22 contacts, 22 contacts (P1), 22 contacts (P2)",
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+   "view": "rear",
+   "part": null,
+   "position": "UPPER"
+  },
+  {
+   "name": "P2",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+   "view": "rear",
+   "part": null,
+   "position": "LOWER"
+  }
+ ],
  "verified": null,
- "derived": false,
- "variant_of": null,
+ "built_from": {
+  "pictures": [
+   "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+  ],
+  "sheet": "Engineering/RTO-144/M460L/M460L.rto144.json",
+  "sheet_agrees": "38 of 38"
+ },
  "pins": [
   {
+   "connector": "P1",
    "pin": "1",
+   "ref": "P1-1",
+   "also": "A",
+   "same_row": null,
    "signal": "MIC IN",
    "kind": "in",
-   "pair": "A1",
-   "polarity": "+",
+   "port": "MIC IN",
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "MIC-IN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "2",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
-   "polarity": null,
-   "confidence": "low",
-   "read_from": "schematic",
-   "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module.pdf",
-   "page": 25
+   "ref": "P1-2",
+   "also": "B",
+   "same_row": null,
+   "signal": "MIC SHIELD",
+   "kind": "shield",
+   "port": "MIC IN",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "3",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
+   "ref": "P1-3",
+   "also": "C",
+   "same_row": null,
+   "signal": "PA BUS",
+   "kind": "bus",
+   "port": "PA",
    "polarity": null,
-   "confidence": "low",
-   "read_from": "schematic",
-   "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module (2).pdf",
-   "page": 25
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-AUX8-PA-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "4",
+   "ref": "P1-4",
+   "also": "D",
+   "same_row": null,
+   "signal": "RS2 BUS",
+   "kind": "bus",
+   "port": "RS2",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-FB2-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
    "pin": "5",
-   "signal": "BUS RIGHT OUT",
-   "kind": "out",
-   "pair": "A3",
-   "polarity": "+",
+   "ref": "P1-5",
+   "also": "E",
+   "same_row": null,
+   "signal": "RS1 BUS",
+   "kind": "bus",
+   "port": "RS1",
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-FB1-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "6",
+   "ref": "P1-6",
+   "also": "F",
+   "same_row": null,
+   "signal": "FB4 BUS",
+   "kind": "bus",
+   "port": "FB4",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "7",
+   "ref": "P1-7",
+   "also": "H",
+   "same_row": null,
+   "signal": "FB3 BUS",
+   "kind": "bus",
+   "port": "FB3",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "P1-8",
+   "also": "J",
+   "same_row": null,
+   "signal": "FB2 BUS",
+   "kind": "bus",
+   "port": "FB2",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-SUB2-RS2-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "9",
+   "ref": "P1-9",
+   "also": "K",
+   "same_row": null,
+   "signal": "FB1 BUS",
+   "kind": "bus",
+   "port": "FB1",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-SUB1-RS1-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "10",
+   "ref": "P1-10",
+   "also": "L",
+   "same_row": null,
+   "signal": "PFL BUS",
+   "kind": "bus",
+   "port": "PFL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "11",
+   "ref": "P1-11",
+   "also": "M",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "12",
-   "signal": "DIRECT OUT",
-   "kind": "out",
-   "pair": "A4",
-   "polarity": "+",
+   "ref": "P1-12",
+   "also": "N",
+   "same_row": null,
+   "signal": "SOLO BUS",
+   "kind": "bus",
+   "port": "SOLO",
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-SOLO-CUE-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "P1-13",
+   "also": "P",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "14",
+   "ref": "P1-14",
+   "also": "R",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "P1-15",
+   "also": "S",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "P1-16",
+   "also": "T",
+   "same_row": null,
+   "signal": "ATT IN SHIELD TIE",
+   "kind": "shield",
+   "port": "ATT IN",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "17",
+   "ref": "P1-17",
+   "also": "U",
+   "same_row": null,
    "signal": "LINE IN",
    "kind": "in",
-   "pair": "A2",
-   "polarity": "+",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "17",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
+   "port": "LINE IN",
    "polarity": null,
-   "confidence": "low",
-   "read_from": "schematic",
-   "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module.pdf",
-   "page": 25
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "LINE-IN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "18",
-   "signal": "COMMON",
-   "kind": "ground",
-   "pair": null,
+   "ref": "P1-18",
+   "also": "V",
+   "same_row": null,
+   "signal": "ATT OUT SHIELD TIE",
+   "kind": "shield",
+   "port": "ATT OUT",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "19",
+   "ref": "P1-19",
+   "also": "W",
+   "same_row": null,
+   "signal": "BOOSTER IN",
+   "kind": "insert_return",
+   "port": "BOOSTER IN",
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "FADER-RETURN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
-   "pin": "19",
-   "signal": "FADER RETURN",
-   "kind": "in",
-   "pair": "B4",
-   "polarity": "+",
+   "connector": "P1",
+   "pin": "20",
+   "ref": "P1-20",
+   "also": "X",
+   "same_row": null,
+   "signal": "CH ON OUT",
+   "kind": "control_out",
+   "port": "CH ON OUT",
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "CH-ON-SWITCH OUT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "P1-21",
+   "also": "Y",
+   "same_row": null,
+   "signal": "CH ON IN",
+   "kind": "control_in",
+   "port": "CH ON IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "INSERT-RETURN +",
+    "kind": "in",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "P1-22",
+   "also": "Z",
+   "same_row": null,
+   "signal": "PRE OUT",
+   "kind": "insert_send",
+   "port": "PRE OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "INSERT-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "A",
+   "ref": "P1-A",
+   "also": "1",
+   "same_row": null,
+   "signal": "MIC IN",
+   "kind": "in",
+   "port": "MIC IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "MIC-IN -",
+    "kind": "in",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "B",
+   "ref": "P1-B",
+   "also": "2",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "C",
+   "ref": "P1-C",
+   "also": "3",
+   "same_row": null,
+   "signal": "PA BUS",
+   "kind": "bus",
+   "port": "PA",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-AUX8-PA-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "D",
+   "ref": "P1-D",
+   "also": "4",
+   "same_row": null,
+   "signal": "RS2 BUS",
+   "kind": "bus",
+   "port": "RS2",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "E",
+   "ref": "P1-E",
+   "also": "5",
+   "same_row": null,
+   "signal": "RS1 BUS",
+   "kind": "bus",
+   "port": "RS1",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-FB1-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "F",
+   "ref": "P1-F",
+   "also": "6",
+   "same_row": null,
+   "signal": "FB4 BUS",
+   "kind": "bus",
+   "port": "FB4",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "H",
+   "ref": "P1-H",
+   "also": "7",
+   "same_row": null,
+   "signal": "FB3 BUS",
+   "kind": "bus",
+   "port": "FB3",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "J",
+   "ref": "P1-J",
+   "also": "8",
+   "same_row": null,
+   "signal": "FB2 BUS",
+   "kind": "bus",
+   "port": "FB2",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-SUB2-RS2-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "K",
+   "ref": "P1-K",
+   "also": "9",
+   "same_row": null,
+   "signal": "FB1 BUS",
+   "kind": "bus",
+   "port": "FB1",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-SUB1-RS1-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "L",
+   "ref": "P1-L",
+   "also": "10",
+   "same_row": null,
+   "signal": "PFL BUS",
+   "kind": "bus",
+   "port": "PFL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "M",
+   "ref": "P1-M",
+   "also": "11",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "N",
+   "ref": "P1-N",
+   "also": "12",
+   "same_row": null,
+   "signal": "SOLO BUS",
+   "kind": "bus",
+   "port": "SOLO",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-SOLO-CUE-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "P",
+   "ref": "P1-P",
+   "also": "13",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "R",
+   "ref": "P1-R",
+   "also": "14",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "S",
+   "ref": "P1-S",
+   "also": "15",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "T",
+   "ref": "P1-T",
+   "also": "16",
+   "same_row": null,
+   "signal": "ATT IN SHIELD TIE",
+   "kind": "shield",
+   "port": "ATT IN",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "U",
+   "ref": "P1-U",
+   "also": "17",
+   "same_row": null,
+   "signal": "LINE IN",
+   "kind": "in",
+   "port": "LINE IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "LINE-IN -",
+    "kind": "in",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "V",
+   "ref": "P1-V",
+   "also": "18",
+   "same_row": null,
+   "signal": "ATT OUT SHIELD TIE",
+   "kind": "shield",
+   "port": "ATT OUT",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "W",
+   "ref": "P1-W",
+   "also": "19",
+   "same_row": null,
+   "signal": "BOOSTER IN",
+   "kind": "insert_return",
+   "port": "BOOSTER IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "FADER-RETURN -",
+    "kind": "in",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "X",
+   "ref": "P1-X",
+   "also": "20",
+   "same_row": null,
+   "signal": "CH ON OUT",
+   "kind": "control_out",
+   "port": "CH ON OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "CH-ON-SWITCH OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "Y",
+   "ref": "P1-Y",
+   "also": "21",
+   "same_row": null,
+   "signal": "CH ON IN",
+   "kind": "control_in",
+   "port": "CH ON IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "INSERT-RETURN -",
+    "kind": "in",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P1",
+   "pin": "Z",
+   "ref": "P1-Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "PRE OUT",
+   "kind": "insert_send",
+   "port": "PRE OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "INSERT-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
+   "pin": "1",
+   "ref": "P2-1",
+   "also": "A",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "2",
+   "ref": "P2-2",
+   "also": "B",
+   "same_row": null,
+   "signal": "GND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "3",
+   "ref": "P2-3",
+   "also": "C",
+   "same_row": null,
+   "signal": "LEFT OUT",
+   "kind": "out",
+   "port": "PROGRAM OUT",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-LEFT-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
+   "pin": "4",
+   "ref": "P2-4",
+   "also": "D",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "5",
+   "ref": "P2-5",
+   "also": "E",
+   "same_row": null,
+   "signal": "RIGHT OUT",
+   "kind": "out",
+   "port": "PROGRAM OUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-RIGHT-OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
+   "pin": "6",
+   "ref": "P2-6",
+   "also": "F",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "7",
+   "ref": "P2-7",
+   "also": "H",
+   "same_row": null,
+   "signal": "GND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "8",
+   "ref": "P2-8",
+   "also": "J",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "9",
+   "ref": "P2-9",
+   "also": "K",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "10",
+   "ref": "P2-10",
+   "also": "L",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "11",
+   "ref": "P2-11",
+   "also": "M",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "12",
+   "ref": "P2-12",
+   "also": "N",
+   "same_row": null,
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "port": "DIRECT OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "DIRECT OUT +",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
+   "pin": "13",
+   "ref": "P2-13",
+   "also": "P",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "14",
+   "ref": "P2-14",
+   "also": "R",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "15",
+   "ref": "P2-15",
+   "also": "S",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "16",
+   "ref": "P2-16",
+   "also": "T",
+   "same_row": null,
+   "signal": "PFL CONTROL",
+   "kind": "control_in",
+   "port": "PFL CONTROL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "17",
+   "ref": "P2-17",
+   "also": "U",
+   "same_row": null,
+   "signal": "MUTE CONTROL",
+   "kind": "control_in",
+   "port": "MUTE CONTROL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "18",
+   "ref": "P2-18",
+   "also": "V",
+   "same_row": null,
+   "signal": "CONTROL COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "GND",
+    "kind": "ground",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
    "pin": "19",
+   "ref": "P2-19",
+   "also": "W",
+   "same_row": null,
    "signal": "-25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VEE-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "20",
-   "signal": "CH ON SWITCH OUT",
-   "kind": "control",
-   "pair": "B3",
-   "polarity": "+",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "20",
-   "signal": "COMMON",
+   "ref": "P2-20",
+   "also": "X",
+   "same_row": null,
+   "signal": "25 V COMMON",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "GND",
+    "kind": "ground",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "21",
-   "signal": "INSERT RETURN",
-   "kind": "in",
-   "pair": "B2",
-   "polarity": "+",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "21",
+   "ref": "P2-21",
+   "also": "Y",
+   "same_row": null,
    "signal": "+25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VCC-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "22",
-   "signal": "OUTPUT ACTIVELY BALANCED AND FED THE INSERT",
-   "kind": "out",
-   "pair": null,
-   "polarity": null,
-   "confidence": "medium",
-   "read_from": "prose",
-   "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - OCR - M460L - P007 - 2-3.jpg",
-   "page": 1
-  },
-  {
-   "pin": "22",
-   "signal": "INSERT OUT",
-   "kind": "out",
-   "pair": "B1",
-   "polarity": "+",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "22",
+   "ref": "P2-22",
+   "also": "Z",
+   "same_row": null,
    "signal": "CHASSIS",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "CHASSIS",
+    "kind": "ground",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "A",
-   "signal": "MIC IN",
-   "kind": "in",
-   "pair": "A1",
-   "polarity": "-",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "C",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
+   "ref": "P2-A",
+   "also": "1",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
    "polarity": null,
-   "confidence": "low",
-   "read_from": "schematic",
-   "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module (2).pdf",
-   "page": 25
-  },
-  {
-   "pin": "E",
-   "signal": "BUS RIGHT OUT",
-   "kind": "out",
-   "pair": "A3",
-   "polarity": "-",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P2",
+   "pin": "B",
+   "ref": "P2-B",
+   "also": "2",
+   "same_row": null,
+   "signal": "GND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "C",
+   "ref": "P2-C",
+   "also": "3",
+   "same_row": null,
+   "signal": "LEFT OUT",
+   "kind": "out",
+   "port": "PROGRAM OUT",
+   "polarity": "L",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-LEFT-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
+   "pin": "D",
+   "ref": "P2-D",
+   "also": "4",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "E",
+   "ref": "P2-E",
+   "also": "5",
+   "same_row": null,
+   "signal": "RIGHT OUT",
+   "kind": "out",
+   "port": "PROGRAM OUT",
+   "polarity": "R",
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "BUS-RIGHT-OUT -",
+    "kind": "out",
+    "agrees": true
+   }
+  },
+  {
+   "connector": "P2",
+   "pin": "F",
+   "ref": "P2-F",
+   "also": "6",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "H",
+   "ref": "P2-H",
+   "also": "7",
+   "same_row": null,
+   "signal": "GND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "J",
+   "ref": "P2-J",
+   "also": "8",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "K",
+   "ref": "P2-K",
+   "also": "9",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "L",
+   "ref": "P2-L",
+   "also": "10",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "M",
+   "ref": "P2-M",
+   "also": "11",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "N",
+   "ref": "P2-N",
+   "also": "12",
+   "same_row": null,
    "signal": "DIRECT OUT",
    "kind": "out",
-   "pair": "A4",
-   "polarity": "-",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "U",
-   "signal": "LINE IN",
-   "kind": "in",
-   "pair": "A2",
-   "polarity": "-",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "V",
-   "signal": "",
-   "kind": "unread",
-   "pair": null,
+   "port": "DIRECT OUT",
    "polarity": null,
-   "confidence": "low",
-   "read_from": "schematic",
-   "file": "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module (2).pdf",
-   "page": 25
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "DIRECT OUT -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
+   "pin": "P",
+   "ref": "P2-P",
+   "also": "13",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "R",
+   "ref": "P2-R",
+   "also": "14",
+   "same_row": null,
+   "signal": "IC (INTERNALLY CONNECTED)",
+   "kind": "other",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "S",
+   "ref": "P2-S",
+   "also": "15",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "T",
+   "ref": "P2-T",
+   "also": "16",
+   "same_row": null,
+   "signal": "RS CONTROL",
+   "kind": "control_in",
+   "port": "RS CONTROL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "U",
+   "ref": "P2-U",
+   "also": "17",
+   "same_row": null,
+   "signal": "MUTE CONTROL",
+   "kind": "control_in",
+   "port": "MUTE CONTROL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
+   "pin": "V",
+   "ref": "P2-V",
+   "also": "18",
+   "same_row": null,
+   "signal": "SOLO CONTROL",
+   "kind": "control_in",
+   "port": "SOLO CONTROL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P2",
    "pin": "W",
-   "signal": "FADER RETURN",
-   "kind": "in",
-   "pair": "B4",
-   "polarity": "-",
+   "ref": "P2-W",
+   "also": "19",
+   "same_row": null,
+   "signal": "CH ON",
+   "kind": "control_out",
+   "port": "CH ON",
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.Z.W",
+    "kind": "strap",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "X",
-   "signal": "CH ON SWITCH OUT",
-   "kind": "control",
-   "pair": "B3",
-   "polarity": "-",
+   "ref": "P2-X",
+   "also": "20",
+   "same_row": null,
+   "signal": "CONTROL COMMON",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.X.18",
+    "kind": "strap",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "Y",
-   "signal": "INSERT RETURN",
-   "kind": "in",
-   "pair": "B2",
-   "polarity": "-",
-   "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
-  },
-  {
-   "pin": "Y",
+   "ref": "P2-Y",
+   "also": "21",
+   "same_row": null,
    "signal": "+24 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VCC-LOGIC",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P2",
    "pin": "Z",
-   "signal": "INSERT OUT",
-   "kind": "out",
-   "pair": "B1",
-   "polarity": "-",
+   "ref": "P2-Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "CH ON LAMP",
+   "kind": "control_out",
+   "port": "CH ON LAMP",
+   "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M460L/M460L.rto144.json",
-   "page": 1
+   "read_from": [
+    "M460L/PINOUTS/1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.pinout.json"
+   ],
+   "sheet": {
+    "signal": "JMP.Z.W",
+    "kind": "strap",
+    "agrees": true
+   }
+  }
+ ],
+ "ports": [
+  {
+   "name": "MIC IN",
+   "dir": "in",
+   "pins": {
+    "a": "P1-A",
+    "b": "P1-1",
+    "shield": "P1-2"
+   }
+  },
+  {
+   "name": "LINE IN",
+   "dir": "in",
+   "pins": {
+    "a": "P1-U",
+    "b": "P1-17"
+   }
+  },
+  {
+   "name": "PRE OUT",
+   "dir": "insert_send",
+   "pins": {
+    "a": "P1-Z",
+    "b": "P1-22"
+   }
+  },
+  {
+   "name": "BOOSTER IN",
+   "dir": "insert_return",
+   "pins": {
+    "a": "P1-W",
+    "b": "P1-19"
+   }
+  },
+  {
+   "name": "ATT IN",
+   "dir": "bidir",
+   "pins": {
+    "a": "P1-T",
+    "b": "P1-16"
+   }
+  },
+  {
+   "name": "ATT OUT",
+   "dir": "bidir",
+   "pins": {
+    "a": "P1-V",
+    "b": "P1-18"
+   }
+  },
+  {
+   "name": "CH ON OUT",
+   "dir": "control_out",
+   "pins": {
+    "a": "P1-X",
+    "b": "P1-20"
+   }
+  },
+  {
+   "name": "CH ON IN",
+   "dir": "control_in",
+   "pins": {
+    "a": "P1-Y",
+    "b": "P1-21"
+   }
+  },
+  {
+   "name": "PROGRAM OUT",
+   "dir": "out",
+   "pins": {
+    "L": "P2-C",
+    "L/2": "P2-3",
+    "R": "P2-E",
+    "R/2": "P2-5"
+   }
+  },
+  {
+   "name": "DIRECT OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P2-N",
+    "b": "P2-12"
+   }
+  },
+  {
+   "name": "PA",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-C",
+    "b": "P1-3"
+   }
+  },
+  {
+   "name": "RS2",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-D",
+    "b": "P1-4"
+   }
+  },
+  {
+   "name": "RS1",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-E",
+    "b": "P1-5"
+   }
+  },
+  {
+   "name": "FB4",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-F",
+    "b": "P1-6"
+   }
+  },
+  {
+   "name": "FB3",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-H",
+    "b": "P1-7"
+   }
+  },
+  {
+   "name": "FB2",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-J",
+    "b": "P1-8"
+   }
+  },
+  {
+   "name": "FB1",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-K",
+    "b": "P1-9"
+   }
+  },
+  {
+   "name": "PFL",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-L",
+    "b": "P1-10"
+   }
+  },
+  {
+   "name": "SOLO",
+   "dir": "bus",
+   "pins": {
+    "a": "P1-N",
+    "b": "P1-12"
+   }
+  },
+  {
+   "name": "RS CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-T"
+   }
+  },
+  {
+   "name": "PFL CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-16"
+   }
+  },
+  {
+   "name": "MUTE CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-U",
+    "ctl/2": "P2-17"
+   }
+  },
+  {
+   "name": "SOLO CONTROL",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P2-V"
+   }
+  },
+  {
+   "name": "CH ON",
+   "dir": "control_out",
+   "pins": {
+    "ctl": "P2-W"
+   }
+  },
+  {
+   "name": "CH ON LAMP",
+   "dir": "control_out",
+   "pins": {
+    "ctl": "P2-Z"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "name": "PRE / BOOSTER INSERT",
+   "send": "PRE OUT",
+   "return": "BOOSTER IN",
+   "normalled": null,
+   "note": "PRE OUT (Z/22) to BOOSTER IN (W/19) is read as the preamp-to-booster patch point (insert). The drawing does not show a normal or strap between them."
   }
  ],
  "straps": [
   {
-   "function": "CH ON LAMP",
-   "designation": "JMP.Z.W",
-   "from": "P2-Z",
-   "to": "P2-W"
+   "name": "JMP.Z.W",
+   "pins": [
+    "P2-Z",
+    "P2-W"
+   ],
+   "note": "CH ON LAMP",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "CH ON GND ",
-   "designation": "JMP.X.18",
-   "from": "P2-X",
-   "to": "P2-18"
+   "name": "JMP.X.18",
+   "pins": [
+    "P2-X",
+    "P2-18"
+   ],
+   "note": "CH ON GND",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "24V Jumper",
-   "designation": "JMP.Y.21",
-   "from": "P2-Y",
-   "to": "P2-21"
+   "name": "JMP.Y.21",
+   "pins": [
+    "P2-Y",
+    "P2-21"
+   ],
+   "note": "24V Jumper",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "CH ON GND ",
-   "designation": "JMP.3",
-   "from": "P2-20",
-   "to": "P2-18"
+   "name": "JMP.3",
+   "pins": [
+    "P2-20",
+    "P2-18"
+   ],
+   "note": "CH ON GND",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Insert +",
-   "designation": "JMP.22.21",
-   "from": "P1-22",
-   "to": "P1-21"
+   "name": "JMP.22.21",
+   "pins": [
+    "P1-22",
+    "P1-21"
+   ],
+   "note": "Insert +",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Insert -",
-   "designation": "JMP.Z.Y",
-   "from": "P1-Z",
-   "to": "P1-Y"
+   "name": "JMP.Z.Y",
+   "pins": [
+    "P1-Z",
+    "P1-Y"
+   ],
+   "note": "Insert -",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Fader +",
-   "designation": "JMP.20.19",
-   "from": "P1-20",
-   "to": "P1-19"
+   "name": "JMP.20.19",
+   "pins": [
+    "P1-20",
+    "P1-19"
+   ],
+   "note": "Fader +",
+   "from": "RTO-144 sheet"
   },
   {
-   "function": "Fader - ",
-   "designation": "JMP.X.W",
-   "from": "P1-X",
-   "to": "P1-W"
+   "name": "JMP.X.W",
+   "pins": [
+    "P1-X",
+    "P1-W"
+   ],
+   "note": "Fader -",
+   "from": "RTO-144 sheet"
   }
  ],
- "power": [
+ "conflicts": [],
+ "to_check": [
   {
-   "rail": "VEE-AUDIO",
-   "style": "NEW",
-   "volts": -25,
-   "max_a": 0.1,
-   "supply": "P2-19",
-   "ground": "P2-20",
-   "link": 2
-  },
-  {
-   "rail": "VCC-AUDIO",
-   "style": "NEW",
-   "volts": 25,
-   "max_a": 0.2,
-   "supply": "P2-21",
-   "ground": "P2-20",
-   "link": 1
-  },
-  {
-   "rail": "VCC-LOGIC",
-   "style": "NEW",
-   "volts": 24,
-   "max_a": 0.1,
-   "supply": "P2-Y",
-   "ground": "P2-18",
-   "link": null
+   "what": "insert guessed",
+   "pin": null,
+   "detail": "Whether PRE OUT/BOOSTER IN are normalled on the module is not shown PRE OUT (Z/22) to BOOSTER IN (W/19) is read as the preamp-to-booster patch point (insert). (M460L: 1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.jpg)"
   }
- ],
- "sources": [
-  "Engineering/RTO-144/M460L/M460L.rto144.json",
-  "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module (2).pdf",
-  "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - Input Module.pdf",
-  "Modules/INPUT-PRE-AMPS/M460L/MANUALS/1974 - M460L - OCR - M460L - P007 - 2-3.jpg"
  ]
 }
