@@ -1,0 +1,19 @@
+{
+ "module": "M460L",
+ "source": {
+  "file": "MANUALS/1974 - M460L - OCR - M460L - P006 - 2-2.jpg",
+  "pages": [
+   1
+  ]
+ },
+ "ocr_quality": 0.95,
+ "read": "OCR of the manual's circuit description; check against the pages",
+ "sections": [
+  {
+   "heading": null,
+   "paragraphs": [
+    "isolate the filter networks from each other and Additionally, they interaction between them, resulting accurate and reprevent peatable equa izing performance cut/boosT controls R21 = R22 and R23 feed an in-phase outThe the buffer amplifiers 25, 26 and 28 of-phase proportional ignal The level the signal fed the buffers is dependent respectively cut/boost control setting with maximum level occurring on the end the potentiometer and null setting the potentioeither mid-position Full clockwise for full counterclockwise potentiometer settings will result the maximum equalization +15 dB and meter -15 dB respectively The buffer amplifiers 25, 26 and Z8 are routed the outputs 4-126 printed circuit board which contains three bandpass filters corresponding each the three sections the equalizer Each bandpass filter passes only portion the signal delivered from the buffer with the center frequency and bandwidth determined by the FREQUENCY, \"Q\" and PEAK/SHELF controls. The hIGH FREQUENCY equalization continuously adjustable from 25 kHz and controlled by RI/R2 R2I determines the amount cut BOOST _ total range from -15 +15 dBm provided. With Sw1 depressed the unit wili produce high frequency SHELVING characterisic_ When SWI released, both positive negative PEAKING be obtained The control R3 effective only with can SW1 the PEAKING mode and covers O-factor range 10 _ The MId FREQUENCY equalization adjusted by RL/R5, covering from 0.4 6.4 kHz. cuT/Boost controlled by R22 frequency range R6 adjusts the O-factor _ Positive negative bell-shaped PEAKING equalization applicable in the mid-frequency range. The LoW FREQUENCY equalization operates similarly the high section R7/R8 adjusts the frequency range from 25 400 frequency Hz cut BOOST are controlled by R23 by R9 and SW12 determines the choice either SHELVING PEAKING characteristics. The three signals which leave the 4-126 filter are \"correction signals\" either in-phase 180 degrees out-of-phase with the equalizer input and bandpass limited as determined by the equalizer section and control settings These correction signals\" are then summed together signal by the operational amplifiers Z1, 22 with the primary (input) and 24, thus forming the equalized output signal"
+   ]
+  }
+ ]
+}

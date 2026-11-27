@@ -13,6 +13,42 @@ Ward-Beck Systems M460L, 1974|7. Wiki page: [M460L on WBSps.ca](https://wardbeck
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 6 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 39 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [6 topics](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1974 - M460L - OCR - M460L - P003 - 1-1.jpg](MANUALS/1974%20-%20M460L%20-%20OCR%20-%20M460L%20-%20P003%20-%201-1.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Sensitivities** |  |
+| &nbsp;&nbsp;Line | Mic Pad: Mic: +10 dBm (ref 600 ohm source) dBm (ref _ 150 ohm source ~LO dBm (ref_ 150 ohm source) |
+| **Frequency response** | +/ -0.25 dB irom Hz 20 kHz (Equalizer bypass position) |
+| **Noise** | -125 dBm EIN maximum SENSITiViTY (20 Hz to 20 kHz) |
+| **Harmonic distortion** | Less than 25% THD from Hz 20 kHz +28 dBm less Less than at kHz +28 dBm output Source |
+| **Load impedances** |  |
+| &nbsp;&nbsp;Line | Mic 50_ 600 ohms, balanced/unbalanced 50 ohms balancedfunpalanced Input Impedances |
+| &nbsp;&nbsp;Line | Mic OOO ohms 500 ohms Output |
+| **Load impedance** | Less than 100 ohms (at outputs 8-109 8-109A amplifiers only) |
+| **Load impedance** | 600 ohms balanced (at insertion point) |
+| **Output level** | dBm nominal, +30 dBm maximum (at outputs 8-109 8-109A amplifiers only) |
+| **Phasing** | Input and output terminals designated by numbers are phase. |
+| **Power requirements** | +/ -25 volts dc, 90 MA nominal, 250 mA maximum |
+
+## Circuit description
+
+From [1974 - M460L - OCR - M460L - P006 - 2-2.jpg](MANUALS/1974%20-%20M460L%20-%20OCR%20-%20M460L%20-%20P006%20-%202-2.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+isolate the filter networks from each other and Additionally, they interaction between them, resulting accurate and reprevent peatable equa izing performance cut/boosT controls R21 = R22 and R23 feed an in-phase outThe the buffer amplifiers 25, 26 and 28 of-phase proportional ignal The level the signal fed the buffers is dependent respectively cut/boost control setting with maximum level occurring on the end the potentiometer and null setting the potentioeither mid-position Full clockwise for full counterclockwise potentiometer settings will result the maximum equalization +15 dB and meter -15 dB respectively The buffer amplifiers 25, 26 and Z8 are routed the outputs 4-126 printed circuit board which contains three bandpass filters corresponding each the three sections the equalizer Each bandpass filter passes only portion the signal delivered from the buffer with the center frequency and bandwidth determined by the FREQUENCY, &quot;Q&quot; and PEAK/SHELF controls. The hIGH FREQUENCY equalization continuously adjustable from 25 kHz and controlled by RI/R2 R2I determines the amount cut BOOST _ total range from -15 +15 dBm provided. With Sw1 depressed the unit wili produce high frequency SHELVING characterisic_ When SWI released, both positive negative PEAKING be obtained The control R3 effective only with can SW1 the PEAKING mode and covers O-factor range 10 _ The MId FREQUENCY equalization adjusted by RL/R5, covering from 0.4 6.4 kHz. cuT/Boost controlled by R22 frequency range R6 adjusts the O-factor _ Positive negative bell-shaped PEAKING equalization applicable in the mid-frequency range. The LoW FREQUENCY equalization operates similarly the high section R7/R8 adjusts the frequency range from 25 400 frequency Hz cut BOOST are controlled by R23 by R9 and SW12 determines the choice either SHELVING PEAKING characteristics. The three signals which leave the 4-126 filter are &quot;correction signals&quot; either in-phase 180 degrees out-of-phase with the equalizer input and bandpass limited as determined by the equalizer section and control settings These correction signals&quot; are then summed together signal by the operational amplifiers Z1, 22 with the primary (input) and 24, thus forming the equalized output signal
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._

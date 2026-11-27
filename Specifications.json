@@ -1,0 +1,199 @@
+{
+ "module": "M460L",
+ "title": "ML6OL INPUT_MQDULE",
+ "source": {
+  "file": "MANUALS/1974 - M460L - OCR - M460L - P003 - 1-1.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.98,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Sensitivities",
+   "key": "sensitivity",
+   "text": "",
+   "items": [
+    {
+     "name": "Line",
+     "text": "Mic Pad: Mic: +10 dBm (ref 600 ohm source) dBm (ref _ 150 ohm source ~LO dBm (ref_ 150 ohm source)",
+     "quantities": [
+      {
+       "value": 10,
+       "unit": "dBm"
+      },
+      {
+       "value": 600,
+       "unit": "ohm"
+      },
+      {
+       "value": 150,
+       "unit": "ohm"
+      },
+      {
+       "value": 150,
+       "unit": "ohm"
+      }
+     ],
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "name": "Frequency response",
+   "key": "frequency_response",
+   "text": "+/ -0.25 dB irom Hz 20 kHz (Equalizer bypass position)",
+   "quantities": [
+    {
+     "value": -0.25,
+     "unit": "dB"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "key": "noise",
+   "text": "-125 dBm EIN maximum SENSITiViTY (20 Hz to 20 kHz)",
+   "quantities": [
+    {
+     "value": -125,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "Less than 25% THD from Hz 20 kHz +28 dBm less Less than at kHz +28 dBm output Source",
+   "quantities": [
+    {
+     "value": 25,
+     "unit": "%"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    },
+    {
+     "value": 28,
+     "unit": "dBm"
+    },
+    {
+     "value": 28,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Load impedances",
+   "key": "load_impedance",
+   "text": "",
+   "items": [
+    {
+     "name": "Line",
+     "text": "Mic 50_ 600 ohms, balanced/unbalanced 50 ohms balancedfunpalanced Input Impedances",
+     "quantities": [
+      {
+       "value": 600,
+       "unit": "ohms"
+      },
+      {
+       "value": 50,
+       "unit": "ohms"
+      }
+     ],
+     "key": "line"
+    },
+    {
+     "name": "Line",
+     "text": "Mic OOO ohms 500 ohms Output",
+     "quantities": [
+      {
+       "value": 500,
+       "unit": "ohms"
+      }
+     ],
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "Less than 100 ohms (at outputs 8-109 8-109A amplifiers only)",
+   "quantities": [
+    {
+     "value": 100,
+     "unit": "ohms"
+    },
+    {
+     "from": 8,
+     "to": 109,
+     "unit": "A"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "600 ohms balanced (at insertion point)",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "dBm nominal, +30 dBm maximum (at outputs 8-109 8-109A amplifiers only)",
+   "quantities": [
+    {
+     "value": 30,
+     "unit": "dBm"
+    },
+    {
+     "from": 8,
+     "to": 109,
+     "unit": "A"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "Input and output terminals designated by numbers are phase."
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "+/ -25 volts dc, 90 MA nominal, 250 mA maximum",
+   "quantities": [
+    {
+     "value": -25,
+     "unit": "volts dc"
+    },
+    {
+     "value": 90,
+     "unit": "MA"
+    },
+    {
+     "value": 250,
+     "unit": "mA"
+    }
+   ]
+  }
+ ]
+}
