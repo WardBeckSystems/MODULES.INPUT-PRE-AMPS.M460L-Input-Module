@@ -1,5 +1,5 @@
 # 1974 - M460L - 4-126-06-001 - EQUALIZER FILTER COMPONENT ASSEMBLY.jpg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1974 (found in this file: "DATE JULY 74")

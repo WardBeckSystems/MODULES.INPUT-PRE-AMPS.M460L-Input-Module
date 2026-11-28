@@ -1,5 +1,5 @@
 # 1974 - M460L - 4-110 Pre-Amp_HP Filter Schematic.jpg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1974 (module estimate (labelled))

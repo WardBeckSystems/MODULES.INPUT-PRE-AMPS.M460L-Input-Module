@@ -1,5 +1,5 @@
 # M460L - Block Diagram(1).jpg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** unknown (title block (read by eye))

@@ -1,5 +1,5 @@
 # 1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.jpg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1974 (module estimate (labelled))

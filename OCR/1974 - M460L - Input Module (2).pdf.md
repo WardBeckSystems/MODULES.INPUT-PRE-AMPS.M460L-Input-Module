@@ -1,5 +1,5 @@
 # 1974 - M460L - Input Module (2).pdf
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1974 (module estimate (labelled))

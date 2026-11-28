@@ -1,5 +1,5 @@
 # 1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC.jpg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1976 (found in this file: "DATE Oct 76")

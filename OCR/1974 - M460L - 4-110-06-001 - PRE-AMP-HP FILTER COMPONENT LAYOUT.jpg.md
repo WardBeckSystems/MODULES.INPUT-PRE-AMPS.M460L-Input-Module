@@ -1,5 +1,5 @@
 # 1974 - M460L - 4-110-06-001 - PRE-AMP-HP FILTER COMPONENT LAYOUT.jpg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1974 (module estimate (labelled))

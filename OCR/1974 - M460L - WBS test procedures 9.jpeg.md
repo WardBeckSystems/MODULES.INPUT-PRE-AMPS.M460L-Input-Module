@@ -1,5 +1,5 @@
 # 1974 - M460L - WBS test procedures 9.jpeg
-Wiki page: [M460L](../../../../PAGES/M460L.md)
+Wiki page: [M460L](../)
 
 
 - **Year:** 1974 (module estimate (labelled))
