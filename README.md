@@ -4,13 +4,11 @@ Ward-Beck Systems M460L, 1974|7. Wiki page: [M460L on WBSps.ca](https://wardbeck
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 37 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 8 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 11 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 179 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 10 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 36 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 7 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 10 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 178 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 39 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -57,6 +55,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKRkxKaWhTbWRTVWc/view?resourcekey=0-JgBF7s3Av4GKoGJGMcnvHQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKRkxKaWhTbWRTVWc&resourcekey=0-JgBF7s3Av4GKoGJGMcnvHQ" width="240" alt="1974 - M460L - 460-04-023 - INPUT MODULE FRONT PANEL.jpg"></a><br><sub>1974|7 · 460-04-023 - INPUT MODULE FRONT PANEL · <a href="MECHANICAL/1974%20-%20M460L%20-%20460-04-023%20-%20INPUT%20MODULE%20FRONT%20PANEL%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M460L.stl`](MECHANICAL/M460L.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M460L)
+
+- **Size:** 69.52 × 429.21 mm panel, 165 mm deep, 3.2 mm plate (the drawing sheet, taken as drawn 1:1)
+- **From the drawing:** 31 holes and cut-outs, 1 knobs (front panel: `MECHANICAL/M460L - front panel.svg`)
+- the drawn panel is 0.11 wide to high, the size 0.16: placed by its height
+- Made by `tools/module_models.py` (→ `MECHANICAL/M460L.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
@@ -67,8 +74,6 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKOG8wQU83bUFvaVU/view?resourcekey=0-fWNB-IlX4bOcEPMbNTQzDw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKOG8wQU83bUFvaVU&resourcekey=0-fWNB-IlX4bOcEPMbNTQzDw" width="240" alt="1974 - M460L - Schematic.jpg"></a><br><sub>1974|7 · Schematic · <a href="SCHEMATICS/1974%20-%20M460L%20-%20Schematic%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKQ0JNRkQtQUtHdlk/view?resourcekey=0-nl0VaqFmukt7xiiXhwynOw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKQ0JNRkQtQUtHdlk&resourcekey=0-nl0VaqFmukt7xiiXhwynOw" width="240" alt="1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC.jpg"></a><br><sub>1976|9 · 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC · <a href="SCHEMATICS/1976%20-%20M460L%20-%204-126-02-001%20-%20EQUALIZER%20FILIER%20AMPLIFIER%20SCHEMATHC%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
-Not on Google Drive yet: `M460L - Block Diagram(1).jpg`
-
 ## Pinouts
 
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
@@ -76,8 +81,6 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 <table>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKVWZPY3J0eE9EaDQ/view?resourcekey=0-GSKb3pEGuPcyD3-OJ1AOTQ" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKVWZPY3J0eE9EaDQ&resourcekey=0-GSKb3pEGuPcyD3-OJ1AOTQ" width="240" alt="1974 - M460L - 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW.jpg"></a><br><sub>1974|7 · 460-04-622 - INPUT MODULE CONNECTOR REAR VIEW · <a href="PINOUTS/1974%20-%20M460L%20-%20460-04-622%20-%20INPUT%20MODULE%20CONNECTOR%20REAR%20VIEW%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
-
-Not on Google Drive yet: `M460L - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
@@ -212,7 +215,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1976 - M460L - 4-126-02-001 - EQUALIZER FILIER AMPLIFIER SCHEMATHC.kicad_sch](KICAD/1976%20-%20M460L%20-%204-126-02-001%20-%20EQUALIZER%20FILIER%20AMPLIFIER%20SCHEMATHC.kicad_sch)
 - [M460L - Block Diagram(1).kicad_sch](KICAD/M460L%20-%20Block%20Diagram(1).kicad_sch)
 - [M460L.kicad_sym](KICAD/M460L.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
